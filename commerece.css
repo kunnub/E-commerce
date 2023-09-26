@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+body {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* header h1 {
+      text-align: left;
+      font-size: 40px;
+      color: white;
+    } */
+
+header {
+  padding: 40px;
+  background-color: rgb(17, 124, 143);
+}
+#logo {
+  display: inline;
+  padding: 0em;
+  margin: 0 3em 0 1em;
+  flex-wrap: wrap;
+  float: left;
+  /* border: 2px solid red; */
+}
+
+#login,
+#cart {
+  display: inline;
+  padding: 1em;
+  margin-right: 0em;
+  margin-left: 4em;
+  /* border: 3px solid red; */
+  width: 10em;
+}
+#search {
+  display: inline;
+  padding: 1.5em;
+  margin: 0.5em -3em 0 2.5em;
+  /* border: 3px solid rgb(255, 17, 0); */
+}
+#search-button {
+  margin: 0 2em 0 -1em;
+  border: none;
+  display: inline;
+  background-color: rgb(111, 228, 237);
+  height: 3em;
+  width: 3.6em;
+  color: white;
+}
+
+#search {
+  height: 0.4em;
+  width: 28em;
+  margin-left: 4em;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  color: white;
+  padding: 1em;
+  display: inline-block;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1.3em;
+  text-align: center;
+  color: white;
+}
+#login:hover,
+#cart:hover,
+#search-button:hover {
+  cursor: pointer;
+}
+
+.nav2 {
+  background-color: #333;
+  overflow: hidden;
+  color: white;
+  padding: 1.5em;
+  display: inline-block;
+  width: 100%;
+  height: 4em;
+  text-decoration: none;
+}
+a.nav2:hover {
+  cursor: pointer;
+}
+
+.nav2 a {
+  text-align: center;
+  color: white;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.slideshow {
+  position: relative;
+  overflow: visible;
+  width: 100%;
+  height: 25em;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 25em;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+img.brands {
+  display: inline;
+  float: inline-start;
+  flex-direction: row;
+  width: 10em;
+  height: 5em;
+  margin-left: 5em;
+}
+
+.brand {
+  display: inline;
+  width: 10em;
+  height: 5em;
+  margin-left: 2em;
+}
+
+/* h3{ text-align: centre;
+align-items: center;
+} */
+
+.offer_bar {
+  display: block;
+  max-width: 100%;
+}
+
+.offer_bar2 {
+  display: flex;
+  float: right;
+  height: 4em;
+  flex-flow: row;
+}
+
+.offer_bar1 {
+  display: flex;
+  float: left;
+  flex-flow: wrap;
+}
+
+.more-categories {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: row;
+}
+
+.categories {
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+h3,
+p {
+  text-align: center;
+}
+
+h3#head {
+  text-wrap: justify;
+  text-align: center;
+}
+.dash_dog {
+  box-sizing: border-box;
+}
+
+.dash {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 1em;
+}
+
+.pet_toys {
+  box-sizing: border-box;
+  display: inline;
+  flex-flow: row;
+}
+
+.toys {
+  display: inline;
+  flex-flow: row;
+  margin: 0 1em;
+}
+
+.col1,
+.col2,
+.col3,
+.col4 {
+  display: inline-flex;
+  box-sizing: border-box;
+  margin: 2em;
+  padding: 1em;
+  text-align: center;
+  /* border: 2px solid red ; */
+  color: aliceblue;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+  text-align: left;
+  font-size: medium;
+  padding-bottom: 0.3em;
+}
+
+a.social {
+  color: antiquewhite;
+}
+
+main {
+  background-color: white;
+  text-align: center;
+}
+li:hover,
+.slideshow:hover,
+.item:hover,
+.toys:hover,
+.brand:hover {
+  cursor: pointer;
+}
+.dash:hover {
+  cursor: pointer;
+  /* box-shadow: 10px 10px red; */
+  box-shadow: 5px 8px 5px 5px rgb(198, 165, 165);
+}
+
+footer {
+  background-color: #333;
+  overflow: hidden;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: white;
+}
