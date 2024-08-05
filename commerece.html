@@ -7,26 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>gigly| home</title>
   <link rel="stylesheet" href="commerece.css" />
-  <link rel=”stylesheet” href=”https://fonts.googleapis.com/icon?vfamily=Material+Icons”>
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
   <nav>
     <div class="c1">
-      <!-- <div id="logo">       -->
       <img id="logo" src="images/gigly_4.png" alt="gigly" width="20%">
-      <!-- </div> -->
-      <input type="text" name="search" id="search" placeholder="search brands,products and more">
-      <!-- <span id="nav-search-submit-text" class="nav-search-submit-text nav-sprite nav-progressive-attribute" aria-label="Go"> -->
-      <input id="search-button" type="submit" class="nav-input" value="Go" tabindex="0">
-      <!-- </span> -->
+      <div class="search-bar">
+        <input type="text" name="search" id="search" placeholder="search brands,products....">
+          <i class="material-symbols-outlined" id="search-icon" type="submit">search</i>
+        <!-- <input id="search-button" type="submit" class="nav-input" value="Go" tabindex="0"> -->
+      </div>
+      
       <div id="login">
+        <i class="material-symbols-outlined" id="login-icon">
+          login
+        </i>
         <input:login>login/signup</input:login>
       </div>
-      <div id="cart"> cart
-        <!-- <a href="cart.png" alt="cart"></a>
-      <p>cart</p> -->
+      <div id="cart"> 
+        <i class="material-symbols-outlined">
+          shopping_cart
+        </i>
+        cart
       </div>
 
     </div>
@@ -38,19 +42,18 @@
     <a href="">accesories</a>
     <a href="">toys</a>
     <a href="">training</a>
-    <a href="">Q&A</a>
   </nav>
 
 
   <div class="slideshow">
     <div class="slide">
-      <img src="images/Screenshot_1.png" alt="Slide 1" width="100%">
+      <img src="images/Screenshot_1.png" alt="Slide 1" width="100%" height="10%">
     </div>
     <div class="slide">
-      <img src="images/Screenshot_2.png" alt="Slide 2" width="100%">
+      <img src="images/Screenshot_2.png" alt="Slide 2" width="100%" height="10%">
     </div>
     <div class="slide">
-      <img src="images/Screenshot_3.png" alt="slide 3" width="100%">
+      <img src="images/Screenshot_3.png" alt="slide 3" width="100%" height="10%">
     </div>
     <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
     <button class="next" onclick="changeSlide(1)">&#10095;</button>
@@ -63,58 +66,48 @@
   <!-- loop items -->
   <div class="brands">
     <div class="brand">
-      <img src="images/Screenshot_15.png" alt="brand 1" height="300em" width="250">
+      <img src="images/Screenshot_15.png" alt="brand 1"  width="20%">
 
     </div>
 
     <div class="brand">
-      <img src="images/Screenshot_16.png" alt="brand 2" height="300em" width="250">
+      <img src="images/Screenshot_16.png" alt="brand 2"  width="20%">
     </div>
 
     <div class="brand">
-      <img src="images/Screenshot_17.png" alt="brand 3" height="300" width="250">
+      <img src="images/Screenshot_17.png" alt="brand 3"  width="20%">
 
     </div>
 
     <div class="brand">
-      <img src="images/xda8b5cp.png" alt="brand 4" height="300" width="250">
+      <img src="images/Screenshot_17.png" alt="brand 4"  width="20%">
 
     </div>
   </div>
 
   <div class="offer_bar">
-    <div class="offer_bar1">
-
-
-      <p>
-        <picture>
+    <span class="offer_bar1">
           <img loading="lazy"
-            srcset="//cdn.shopify.com/s/files/1/0086/0795/7054/files/outlet_mobile_db095297-f61f-484a-95b8-18fd9ed556b2.jpg?v=1683031841"
-            width="600">
-        </picture>
-      </p>
+            srcset="//cdn.shopify.com/s/files/1/0086/0795/7054/files/outlet_mobile_db095297-f61f-484a-95b8-18fd9ed556b2.jpg?v=1683031841" width="48%">
+ 
 
-    </div>
+    </span> 
 
-    <div class="offer_bar2">
-      <p>
-        <picture>
+      <span class="offer_bar2">
           <img loading="lazy"
-            srcset="//cdn.shopify.com/s/files/1/0086/0795/7054/files/treats_mobile_70fa31e0-c6d8-464c-a647-3a7494790c0c.jpg?v=1685539776"
-            width="600">
-        </picture>
-      </p>
-    </div>
+            srcset="//cdn.shopify.com/s/files/1/0086/0795/7054/files/treats_mobile_70fa31e0-c6d8-464c-a647-3a7494790c0c.jpg?v=1685539776" width="48%">
+        
+    </span> 
 
-  </div>
+  </div> 
 
+  <div></div>
   <div class="more-categories">
-    <h3 id="head">Explore more categories </h3>
-
     <div class="categories">
+      <h3>Explore more categories </h3>
 
       <div class="item">
-        <img src="images/Screenshot_4.png" alt="mats" width="200">
+        <img src="images/Screenshot_4.png" alt="mats" width="50%">
 
         <h4>Mats</h4>
 
@@ -122,8 +115,7 @@
       </div>
 
       <div class="item">
-        <img src="images/Screenshot_5.png" alt="" width="200">
-
+        <img src="images/Screenshot_5.png" alt="" width="50%">
 
         <h4>Wellness</h4>
 
@@ -131,7 +123,7 @@
       </div>
 
       <div class="item">
-        <img src="images/Screenshot_6.png" alt="" width="200">
+        <img src="images/Screenshot_6.png" alt="" width="50%">
 
         <h4>Toys</h4>
 
@@ -141,7 +133,7 @@
       </div>
 
       <div class="item">
-        <img src="images/Screenshot_8.png" alt="" width="200">
+        <img src="images/Screenshot_8.png" alt="" width="50%">
 
         <h4>Accessories</h4>
 
@@ -150,7 +142,7 @@
       </div>
 
       <div class="item">
-        <img src="images/Screenshot_9.png" alt="" width="200">
+        <img src="images/Screenshot_9.png" alt="" width="50%">
 
         <h4>Cat Food</h4>
 
@@ -158,7 +150,7 @@
       </div>
 
       <div class="item">
-        <img src="images/Screenshot_10.png" alt="" width="200">
+        <img src="images/Screenshot_10.png" alt="" width="50%">
 
         <h4>Cat Litter</h4>
 
@@ -171,21 +163,21 @@
 
   <div class="dash_dog">
     <h3>Lets chase fun with Dash Dog</h3>
-    <div class="dash">
-      <img src="images/Screenshot_18.png" alt="" width="250">
-    </div>
-    <div class="dash">
-      <img src="images/Screenshot_19.png" alt="" width="250">
-    </div>
-    <div class="dash">
-      <img src="images/Screenshot_20.png" alt="" width="250">
-    </div>
-    <div class="dash">
-      <img src="images/Screenshot_24.png" alt="" width="250">
-    </div>
+    <picture class="dash">
+      <img src="images/Screenshot_18.png" alt="" width="20%">
+    </picture>
+    <picture class="dash">
+      <img src="images/Screenshot_19.png" alt="" width="20%">
+    </picture>
+    <picture class="dash">
+      <img src="images/Screenshot_20.png" alt="" width="20%">
+    </picture>
+    <picture class="dash">
+      <img src="images/Screenshot_24.png" alt="" width="20%">
+    </picture>
 
   </div>
-  </div>
+  
 
 
 
@@ -197,16 +189,16 @@
     <h3>Fun ways to keep your pets busy</h3>
 
     <div class="toys">
-      <img src="images/Screenshot_21.png" alt="" width="20%">
+      <img src="images/Screenshot_21.png" alt="" width="80%">
     </div>
     <div class="toys">
-      <img src="images/Screenshot_22.png" alt="" width="20%">
+      <img src="images/Screenshot_22.png" alt="" width="80%">
     </div>
     <div class="toys">
-      <img src="images/Screenshot_23.png" alt="" width="20%">
+      <img src="images/Screenshot_23.png" alt="" width="80%">
     </div>
     <div class="toys">
-      <img src="images/Screenshot_7.png" alt="" width="20%">
+      <img src="images/Screenshot_7.png" alt="" width="80%">
     </div>
   </div>
 
