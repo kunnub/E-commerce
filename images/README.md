@@ -1,2 +1,1 @@
-# E-commerce
-e-commerce website
+An E-Commerce website static page using HTML ,CSS & JavaScript.
