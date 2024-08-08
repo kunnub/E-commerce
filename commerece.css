@@ -141,19 +141,15 @@ a.nav2:hover {
 }
 
 img.brands {
-  display: inline;
-  float: inline-start;
-  flex-direction: row;
-  width: 10em;
-  height: 5em;
-  margin-left: 5em;
+  box-sizing: border-box;
+  padding: 2%;
 }
 
 .brand {
-  display: inline;
-  width: 10em;
-  height: 5em;
-  margin-left: 2em;
+  display: inline-flex;
+  flex-direction: row;
+  margin: 2%;
+ padding-left: 0.5%;
 }
 
 /* h3{ text-align: centre;
@@ -168,7 +164,7 @@ align-items: center;
 .offer_bar2 {
   display: flex;
   float: right;
-  height: 4em;
+  height: 4%;
   flex-flow: row;
 }
 
@@ -200,18 +196,20 @@ p {
   text-align: center;
 }
 
-h3#head {
+#head {
+  padding: 1% 40%;
   text-wrap: justify;
   text-align: center;
 }
 .dash_dog {
   box-sizing: border-box;
+  padding: 2%;
 }
 
 .dash {
   display: inline-flex;
   flex-direction: row;
-  margin: 1em;
+  margin: 2%;
 }
 
 .pet_toys {
@@ -223,7 +221,7 @@ h3#head {
 .toys {
   display: inline;
   flex-flow: row;
-  margin: 0 1em;
+  margin: 1% 2%;
 }
 
 .col1,
@@ -232,8 +230,8 @@ h3#head {
 .col4 {
   display: inline-flex;
   box-sizing: border-box;
-  margin: 2em;
-  padding: 1em;
+  margin: 2%;
+  padding: 1%;
   text-align: center;
   /* border: 2px solid red ; */
   color: aliceblue;
@@ -244,7 +242,7 @@ li {
   list-style-type: none;
   text-align: left;
   font-size: medium;
-  padding-bottom: 0.3em;
+  padding-bottom: 0.3%;
 }
 
 a.social {
@@ -275,8 +273,10 @@ footer {
 
 footer a {
   text-decoration: none;
-  padding: 20px;
+  padding: 2%;
   text-align: center;
-  float: left;
+  align-items: center;
   color: white;
 }
+
+
