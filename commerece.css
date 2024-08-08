@@ -48,18 +48,6 @@ body {
   right: 1%;
 }
 
-<<<<<<< HEAD
-img.brands {
-  box-sizing: border-box;
-  padding: 2%;
-}
-
-.brand {
-  display: inline-flex;
-  flex-direction: row;
-  margin: 2%;
- padding-left: 0.5%;
-=======
 h3 {
   text-align: center;
 }
@@ -68,80 +56,11 @@ h3 {
   max-width: 100%;
   justify-content: space-between;
   margin-left: 1%;
->>>>>>> 08cde90a7cd8d6b20e85e5358bcadb493674faba
 }
 /* .item h4 {
   width: fit-content;
 } */
 
-<<<<<<< HEAD
-.offer_bar {
-  display: block;
-  max-width: 100%;
-}
-
-.offer_bar2 {
-  display: flex;
-  float: right;
-  height: 4%;
-  flex-flow: row;
-}
-
-.offer_bar1 {
-  display: flex;
-  float: left;
-  flex-flow: wrap;
-}
-
-.more-categories {
-  box-sizing: border-box;
-  display: inline-flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  text-align: center;
-  flex-direction: row;
-}
-
-.categories {
-  box-sizing: border-box;
-  display: inline-flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-h3,
-p {
-  text-align: center;
-}
-
-#head {
-  padding: 1% 40%;
-  text-wrap: justify;
-  text-align: center;
-}
-.dash_dog {
-  box-sizing: border-box;
-  padding: 2%;
-}
-
-.dash {
-  display: inline-flex;
-  flex-direction: row;
-  margin: 2%;
-}
-
-.pet_toys {
-  box-sizing: border-box;
-  display: inline;
-  flex-flow: row;
-}
-
-.toys {
-  display: inline;
-  flex-flow: row;
-  margin: 1% 2%;
-=======
 .toys {
   display: inline-block;
   width: 20%;
@@ -153,7 +72,6 @@ footer {
   display: block;
   width: 100%;
   justify-content: center;
->>>>>>> 08cde90a7cd8d6b20e85e5358bcadb493674faba
 }
 
 .col1,
@@ -212,9 +130,6 @@ footer a {
   color: white;
 }
 
-<<<<<<< HEAD
-
-=======
 header {
   padding: 40%;
   background-color: rgb(17, 124, 143);
@@ -596,4 +511,3 @@ p {
     font-size: smaller;
   }
 }
->>>>>>> 08cde90a7cd8d6b20e85e5358bcadb493674faba
